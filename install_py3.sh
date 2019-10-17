@@ -14,5 +14,5 @@ yum -y install gcc* glibc*
 ./configure --prefix=${PY3_DIR}
 make && make install
 ln -s ${PY3_DIR}/bin/python3 ${OS_BIN}/python3
-ln -s ${PY#_DIR}/bin/pip3 ${OS_BIN}/pip3
+ln -s ${PY3_DIR}/bin/pip3 ${OS_BIN}/pip3
 python3 -V
